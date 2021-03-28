@@ -30,7 +30,8 @@ function draw() {
     
     keyPressed();
     if (isTouching(cat, mouse)) {
-	cat.x = 800
+	cat.x = 800;
+	cat.changeAnimation(tomImg3);
     }
 
     drawSprites();
